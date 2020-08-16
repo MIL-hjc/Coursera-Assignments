@@ -26,7 +26,6 @@ article{
   padding: 10px;
   padding-top: 28px;
   border: 1px solid black;
-/*  margin: 15px 20px 15px 20px; */
   position: relative;
 }
 
@@ -46,10 +45,6 @@ h2{
   top: 0;
   right: 0;
 }
-
-/*#First{
-  border-left: 25px solid white;
-}*/
 
 #T1{
   background-color: salmon;
@@ -109,13 +104,6 @@ h2{
   .col-lg-12{
     width: 100%;
   }
-  /*section{
-    width: 30%;
-  }
-
-  #First{
-    margin-left: 35px;
-  }*/
 }
 
 @media (min-width: 768px) and (max-width: 991px){
