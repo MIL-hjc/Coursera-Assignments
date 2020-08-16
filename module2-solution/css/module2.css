@@ -1,4 +1,6 @@
 body{
+  margin: 0;
+  padding: 0;
   font-family: cursive, sans-serif;
   font-weight: bold;
 }
@@ -9,26 +11,39 @@ h1{
 }
 
 section{
+  width: 200px;
   font-size: 16px;
+  background-color: yellow;
+  align-items: right;
   border-spacing: 10px;
   padding: 5px;
-  border: 1px solid black;
+  border: 3px solid black;
+  margin: 35px;
 }
 
 h2{
   width: 70px;
-  height: 30px;
   font-size: 20px;
   text-align: right;
-  align-items: right;
+  border: 3px solid black;
+}
+
+#T1{
   background-color: orange;
 }
 
-p{
+#T2{
+  background-color: pink;
+}
+
+#T3{
+  background-color: red;
+}
+
+/*p{
   width: 500px;
-  height: 250px;
   font-size: 14px;
   background-color: grey;
   text-align: left;
   vertical-align: middle;
-}
+}*/
