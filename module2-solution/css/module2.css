@@ -1,43 +1,62 @@
-body{
+
+*{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body{
   font-family: cursive, sans-serif;
   font-weight: bold;
+  align-content: center;
 }
 
 h1{
   font-size: 24px;
   text-align: center;
+  margin: 40px;
 }
 
 section{
-  width: 200px;
-  font-size: 16px;
-  background-color: yellow;
-  align-items: right;
-  border-spacing: 10px;
-  padding: 5px;
-  border: 3px solid black;
-  margin: 35px;
+  width: 30%;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: lightseagreen;
+  padding: 10px;
+  padding-top: 28px;
+  border: 1px solid black;
+  margin: 15px 20px 15px 20px;
+  position: relative;
 }
 
 h2{
-  width: 70px;
-  font-size: 20px;
-  text-align: right;
-  border: 3px solid black;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #T1{
-  background-color: orange;
+  background-color: salmon;
 }
 
 #T2{
-  background-color: pink;
+  background-color: wheat;
 }
 
 #T3{
   background-color: red;
+}
+
+#First{
+  margin-left: 35px;
 }
 
 /*p{
