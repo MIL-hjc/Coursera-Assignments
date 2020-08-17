@@ -47,11 +47,12 @@ h2{
 }
 
 #T1{
-  background-color: darksalmon;
+  background-color: palevioletred;
 }
 
 #T2{
   background-color: firebrick;
+  color: white;
 }
 
 #T3{
