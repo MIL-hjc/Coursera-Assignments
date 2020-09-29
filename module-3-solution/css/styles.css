@@ -1,0 +1,97 @@
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: cursive, sans-serif;
+	font-weight: bolder;
+	color: black;
+}
+
+body {
+	background-color: white;
+	color: black;
+	text-align: center;
+  font-family: cursive, sans-serif;
+	font-weight: bold;
+  font-size: 16px;
+}
+
+.container {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: auto;
+}
+
+section {
+	background-color: grey;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 30px;
+	padding-top: 0px;
+	color: black;
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand { /*Food, LLC*/
+  font-size: 200%;
+  padding-left: 10px;
+  color: black;
+}
+
+#header-nav {
+  border: 3px solid black;
+  background-color: grey;
+  color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 3px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: grey;
+}
+
+.nav-brand {
+  color: black;
+  font-size: 140%;
+}
+
+#nav-list {
+  color: black;
+}
+
+hr {
+  /*border: 3px solid black;*/
+}
+
+.item {
+  color: black;
+  font-size: 120%;
+}
